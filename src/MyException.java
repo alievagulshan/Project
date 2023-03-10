@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class Myexception {
+public class MyException  extends RuntimeException{
+    public MyException() {
+        super();
+    }
 }
